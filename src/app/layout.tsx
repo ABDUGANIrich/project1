@@ -3,8 +3,8 @@ import "./globals.css";
 import React from "react";
 
 export const metadata: Metadata = {
-    title: "0",
-    description: "0",
+    title: "вход",
+    description: "Страница входа для пользователей",
 };
 
 

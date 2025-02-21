@@ -1,7 +1,11 @@
-export default function Home() {
+import Image from "next/image";
+
+export default function Home(){
     return (
         <div>
-            <p className={""}>Hello world</p>
+            <div>
+                <Image src="/fassco.png" width={203} height={200} alt="Fassco logo"></Image>
+            </div>
         </div>
     );
 }
