@@ -13,11 +13,9 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className="antialiased">
-                <Navbar/>
-                {children}
-            </body>
-        </html>
+        <main>
+            <Navbar />
+            {children}
+        </main>
     );
 }
